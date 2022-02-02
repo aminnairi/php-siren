@@ -1,0 +1,26 @@
+{
+    "name": "aminnairi/siren",
+    "description": "French SIREN number validator",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Aminnairi\\Siren\\": "sources/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amin NAIRI",
+            "email": "noreply@github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "pestphp/pest": "^1.21"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
